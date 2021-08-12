@@ -1,0 +1,9 @@
+.skills {
+    @extend .list-group-horizontal;
+    @extend .row;
+
+    li {
+        @extend .list-group-item;
+        @extend .col-md-4;
+    }
+}
