@@ -57,12 +57,12 @@
 
         <div class="hobbies">
             <h4 class="heading">Hobbies</h4>
-
-            <span class="badge badge-pill badge-alternate"><b-icon icon="outdoors"></b-icon>Outdoors</span>
-            <span class="badge badge-pill badge-dark">Woodworking</span>
-            <span class="badge badge-pill badge-secondary">Running</span>
-            <span class="badge badge-pill badge-secondary">Triathlon</span>
-            <span class="badge badge-pill badge-secondary">Music</span>
+            <span class="hobby"><fa-icon icon="child"></fa-icon>Playing with my boys</span>
+            <span class="hobby"><fa-icon icon="cloud-sun"></fa-icon>Outdoors</span>
+            <span class="hobby"><fa-icon icon="hammer"></fa-icon>Woodworking</span>
+            <span class="hobby"><fa-icon icon="running"></fa-icon>Running</span>
+            <span class="hobby"><fa-icon icon="music"></fa-icon>Music</span>
+            <span class="hobby"><fa-icon icon="camera"></fa-icon>Photography</span>
 
         </div>
         

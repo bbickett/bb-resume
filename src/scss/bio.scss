@@ -35,6 +35,26 @@
         font-size: 1.2rem;
     }
 
+    .hobbies {
+
+        font-size: 1.3rem;
+
+        .hobby {
+            @extend .badge;
+            @extend .badge-pill;
+            @extend .badge-alternate;
+            @extend .mr-2;
+            @extend .px-3;
+            @extend .py-2;
+            @extend .mb-2;
+
+
+            .svg-inline--fa {
+                margin-right: 5px;
+            }
+        }
+
+    }
 
 
 
