@@ -9,7 +9,8 @@
         @extend .mt-3;
 
         .dates {
-            @extend .col-2;
+            @extend .col-md-3;
+            @extend .col-lg-2;
             font-style: italic;
         }
 

@@ -1,10 +1,10 @@
 <template>
   <div class="home">
     <div class="row">
-      <div class="col-12 col-md-3 bg-brand p-4">
+      <div class="col-xs-12 col-md-5 col-lg-4 bg-brand p-4">
           <bio></bio>
       </div>
-      <div class="col-12 col-md-9 p-5">
+      <div class="col p-5">
           <experience></experience>
           <skills></skills>
       </div>

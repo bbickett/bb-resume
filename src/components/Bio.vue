@@ -15,7 +15,7 @@
 
             <div class="subheading">
                 <b-icon icon="linkedin"></b-icon>
-                <a href="https://www.linkedin.com/in/bbickett/" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/bbickett</a>
+                <a href="https://www.linkedin.com/in/bbickett/" target="_blank" rel="noopener noreferrer">linkedin.com/in/bbickett</a>
             </div>
 
 
