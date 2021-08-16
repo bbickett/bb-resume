@@ -1,9 +1,13 @@
 .skills {
-    @extend .list-group-horizontal;
     @extend .row;
+    justify-content: space-between;
+    @extend .mb-4;
 
-    li {
-        @extend .list-group-item;
+    .skill {
+        @extend .col-12;
+        @extend .col-sm-6;
         @extend .col-md-4;
+        @extend .mb-3;
     }
 }
+
