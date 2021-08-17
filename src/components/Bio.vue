@@ -24,7 +24,7 @@
                 <a href="https://github.com/bbickett" target="_blank" rel="noopener noreferrer">github.com/bbickett</a>
             </div>
 
-            <div class="subheading">
+            <div class="subheading contact-me" @click="showContactForm">
                 <b-icon icon="chat-fill"></b-icon>
                 <div class="info">
                     Contact Me
@@ -67,17 +67,39 @@
             <span class="hobby"><fa-icon icon="glasses"></fa-icon>Reading</span>  
 
         </div>
+
+
+        <contact-me></contact-me>
+
         
     </div>
     
 </template>
 
+<style lang="scss">
+    .contact-me {
+        cursor: pointer;
+
+        &:hover {
+            color: #ccc;
+        }
+    }
+</style>
+
 
 <script>
-
+    import ContactMe from '@/components/ContactMe'
 
     export default {
-        name: 'bio'
+        name: 'bio',
+        components: {
+            ContactMe
+        },
+        methods: {
+            showContactForm() {
+                this.$bvModal.show('contact-me')
+            }
+        }
 
 
     }
