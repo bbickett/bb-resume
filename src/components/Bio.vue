@@ -60,11 +60,12 @@
             <span class="hobby"><fa-icon icon="child"></fa-icon>Playing with my boys</span>
             <span class="hobby"><fa-icon icon="cloud-sun"></fa-icon>Outdoors</span>
             <span class="hobby"><fa-icon icon="hammer"></fa-icon>Woodworking</span>
+            <span class="hobby"><fa-icon icon="glasses"></fa-icon>Reading</span>
             <span class="hobby"><fa-icon icon="camera"></fa-icon>Photography</span>
-            <span class="hobby"><fa-icon icon="music"></fa-icon>Music</span>
             <span class="hobby"><fa-icon icon="running"></fa-icon>Running</span>            
             <span class="hobby"><fa-icon icon="car"></fa-icon>Working on cars</span>
-            <span class="hobby"><fa-icon icon="glasses"></fa-icon>Reading</span>  
+            <span class="hobby"><fa-icon icon="music"></fa-icon>Music</span>
+            <span class="hobby"><fa-icon icon="code-branch"></fa-icon>Constantly learning</span>  
 
         </div>
 

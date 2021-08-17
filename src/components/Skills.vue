@@ -104,23 +104,23 @@
 
         <h5 class="header">Personal</h5>
         <div class="skills">
-            <div class="skill">Problem Solver
-                <b-progress value="95" height="5px"></b-progress>
+            <div class="skill"><fa-icon icon="search"></fa-icon>Problem Solver
+                
             </div>
-            <div class="skill">Critical Thinker
-                <b-progress value="90" height="5px"></b-progress>
+            <div class="skill"><fa-icon icon="brain"></fa-icon>Critical Thinker
+                
             </div>
-            <div class="skill">Detail Oriented
-                <b-progress value="90" height="5px"></b-progress>
+            <div class="skill"><fa-icon icon="info"></fa-icon>Detail Oriented
+                
             </div>
-            <div class="skill">Team Leader
-                <b-progress value="85" height="5px"></b-progress>
+            <div class="skill"><fa-icon icon="user-friends"></fa-icon>Team Leader
+                
             </div>
-            <div class="skill">Self-Motivated
-                <b-progress value="85" height="5px"></b-progress>
+            <div class="skill"><fa-icon icon="hand-rock"></fa-icon>Self-Motivated
+                
             </div>
-            <div class="skill">Responsible
-                <b-progress value="95" height="5px"></b-progress>
+            <div class="skill"><fa-icon icon="hands-helping"></fa-icon>Responsible
+                
             </div>
         </div>
 
