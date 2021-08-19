@@ -10,9 +10,14 @@
 
 .page {
     
-    margin: 15px 50px;
+    margin: 0;
+    
     box-shadow: 3px 3px 10px #333;
     background-color: #fff;
+    @include media-breakpoint-up(sm) {
+        margin: 15px 50px;
+    }
+
     @include media-breakpoint-up(lg) {
         margin: 30px 100px;    
     }
