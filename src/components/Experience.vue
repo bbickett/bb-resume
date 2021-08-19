@@ -12,8 +12,7 @@
 
         <div class="job">
             <div class="dates">
-                May 2016 - <br>
-                Present
+                May 2016 - Present
             </div>
 
             <div class="position">
@@ -36,8 +35,7 @@
 
         <div class="job">
             <div class="dates">
-                Feb 2016 - <br>
-                May 2016
+                Feb 2016 - May 2016
             </div>
 
             <div class="position">
@@ -55,8 +53,7 @@
 
         <div class="job">
             <div class="dates">
-                Dec 2012 - <br>
-                Feb 2016
+                Dec 2012 - Feb 2016
             </div>
             
             <div class="position">
@@ -77,8 +74,7 @@
 
         <div class="job">
             <div class="dates">
-                Jul 2011 - <br>
-                Nov 2012
+                Jul 2011 - Nov 2012
             </div>
             
             <div class="position">
@@ -99,8 +95,7 @@
 
         <div class="job">
             <div class="dates">
-                Oct 2010 - <br>
-                Jul 2011
+                Oct 2010 - Jul 2011
             </div>
             
             <div class="position">
@@ -120,8 +115,7 @@
 
         <div class="job">
             <div class="dates">
-                Jun 2009 - <br>
-                Sept 2010
+                Jun 2009 - Sept 2010
             </div>
             
             <div class="position">
