@@ -1,7 +1,7 @@
 <template>
     <b-modal id="contact-me" title="Contact Me" size="lg" :static="true" header-bg-variant="alternate" @ok="submitContactForm" @hidden="resetForm">
 
-        <b-form v-if="!successfulSubmit" name="contact" :validated="true" ref="contact" method="POST" data-netlify="true" data-netlify-honeypot="title">
+        <b-form v-if="!successfulSubmit" name="contact" :validated="true" ref="contact" method="POST" netlify data-netlify="true" data-netlify-honeypot="title">
 
             <input type="hidden" name="form-name" value="contact" />
 
