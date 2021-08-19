@@ -1,7 +1,7 @@
 <template>
-    <b-modal id="contact-me" title="Contact Me" size="lg" @ok="submitContactForm">
+    <b-modal id="contact-me" title="Contact Me" size="lg" @ok="submitContactForm" @hidden="resetForm">
 
-        <b-form name="contact" ref="contact" method="POST" data-netlify="true" data-netlify-honeypot="title">
+        <b-form v-if="!successfulSubmit" name="contact" :validated="true" ref="contact" method="POST" data-netlify="true" data-netlify-honeypot="title">
 
             <input type="hidden" name="form-name" value="contact" />
 
@@ -58,9 +58,31 @@
             </b-form-group>
 
 
-
-            <b-button size="lg" type="submit" variant="primary">Submit</b-button>
         </b-form>
+        <div v-else>
+                <b-alert show>Thank you for getting in touch!</b-alert>
+        </div>
+
+        <template #modal-footer="{ ok, hide }">
+            <div class="w-100">
+                <b-button
+                    variant="secondary"
+                    class="float-right"
+                    @click="hide('forget')"
+                    v-if="successfulSubmit"
+                >
+                    Close
+                </b-button>
+                <b-button
+                    variant="primary"
+                    class="d-flex ml-auto"
+                    @click="ok()"
+                    v-if="!successfulSubmit"
+                >
+                    Submit
+                </b-button>
+            </div>
+      </template>
 
     </b-modal>
 </template>
@@ -72,6 +94,8 @@
     export default {
         data() {
             return {
+                successfulSubmit: false,
+                valid: false,
                 form: {
                     name: '',
                     email: '',
@@ -81,19 +105,28 @@
             }
         },
         methods: {
+            resetForm() {
+                this.form.name = ''
+                this.form.email = ''
+                this.form.message = ''
+                this.valid = false
+                this.successfulSubmit = false
+            },
             checkFormValidity() {
                 const valid = this.$refs.contact.checkValidity()
-                return valid
+                this.valid = valid
             },
             submitContactForm(bvModalEvt) {
+
+                this.checkFormValidity()
 
                 let self = this
 
                 bvModalEvt.preventDefault()
 
-                if (!this.checkFormValidity()) {
+                if (!this.valid) {
                     console.log("invalid form")
-                   return
+                    return
                 }
 
                 axios.post(
@@ -102,12 +135,14 @@
                     { header: { "Content-Type": "application/x-www-form-urlencoded" } }
                 )
                 .then(() => {
-                    console.log('Form successfully submitted')
-                    self.$nextTick(() => {
-                        self.$bvModal.hide('modal-prevent-closing')
-                    })
+                    self.successfulSubmit = true
+                    // console.log('Form successfully submitted')
+                    // self.$nextTick(() => {
+                    //     self.$bvModal.hide('modal-prevent-closing')
+                    // })
                 })
-                .catch((error) => alert(error))
+                .catch((error) => console.log(error))
+
             }
         }
     }

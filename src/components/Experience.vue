@@ -1,7 +1,7 @@
 <template>
     <div class="experience">
         <p class="summary">
-            An experienced Full Stack Engineer capable of delivering complex projects,
+            An experienced Full Stack Engineer capable of delivering complex projects
             through full project life cycle, looking to obtain a position in web development
             that allows me to use my current knowledge and experience. A team player with
             excellent analytical, technical, and communication skills looking for the

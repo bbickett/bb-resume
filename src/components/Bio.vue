@@ -57,7 +57,7 @@
 
         <div class="hobbies">
             <h4 class="heading">Hobbies</h4>
-            <span class="hobby"><fa-icon icon="child"></fa-icon>Playing with my boys</span>
+            <span class="hobby"><fa-icon icon="child"></fa-icon>Family Time</span>
             <span class="hobby"><fa-icon icon="cloud-sun"></fa-icon>Outdoors</span>
             <span class="hobby"><fa-icon icon="hammer"></fa-icon>Woodworking</span>
             <span class="hobby"><fa-icon icon="glasses"></fa-icon>Reading</span>
