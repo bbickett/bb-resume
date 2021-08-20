@@ -20,12 +20,13 @@
                 <small class="company">Collier County Public Schools (CCPS)</small>
 
                 <ul class="duties">
+                    <li>Architect a new .NET Core 3.1 MVC web application that also integrates Vue.js for SCSS/JS bundling with optional 3rd party and custom single file components</li>
+                    <li>Mentor all developers on .NET, SQL, and JavaScript best practices and improvements</li>
                     <li>Maintain/enhance an existing Web Forms application</li>
                     <li>Import federal/state files into SQL Server</li>
                     <li>Write custom SQL scripts for a wide variety of data reports</li>
                     <li>Redesign and implement a new database</li>
                     <li>Research practical applications of using TensorFlow to enhance student and teacher feedback</li>
-                    <li>Architect a new .NET Core 3.1 MVC web application that also integrates Vue.js for SCSS/JS bundling with optional 3rd party and custom single file components</li>
                     <li>Install GitLab Community and setup GitLab Runners for CI/CD</li>
                     <li>Create/Maintain documentation using GitLab Wiki</li>
                 </ul>
@@ -61,9 +62,10 @@
                 <small class="company">Algenol Biotech</small>
 
                 <ul class="duties">
-                    <li>Develop custom web application (LIM System) for scientists to setup/run experiments. This includes collecting all data via
+                    <li>Architech &amp; develop custom web application (LIM System) for scientists to setup/run experiments. This includes collecting all data via
                         manual or file input, building custom user Excel reports and graphs, alerting, and interacting with other systems via RESTful API</li>
                     <li>Develop customized databases and reports from a correlating logging system</li>
+                    <li>Lead and mentor other developers</li>
                     <li>Setup/Maintain/Customize Splunk and GitHub Enterprise</li>
                     <li>Customize a 3rd party SPA to continuously show, on a world map, dropped packets from all our IPS and firewalls</li>
                     <li>Write apps/services/scripts to help with different IT department tasks</li>
@@ -104,6 +106,7 @@
 
                 <ul class="duties">
                     <li>Manage new product development</li>
+                    <li>Lead development team</li>
                     <li>Research updated libraries for development</li>
                     <li>Troubleshoot existing product issues</li>
                     <li>Code for product when needed</li>

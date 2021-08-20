@@ -6,7 +6,7 @@
         <h5 class="header">Languages</h5>
         <div class="skills">
             <div class="skill">JavaScript
-                <b-progress value="90" height="5px"></b-progress>
+                <b-progress value="95" height="5px"></b-progress>
             </div>
             <div class="skill">HTML
                 <b-progress value="96" height="5px"></b-progress>
@@ -15,7 +15,7 @@
                 <b-progress value="96" height="5px"></b-progress>
             </div>
             <div class="skill">C#
-                <b-progress value="83" height="5px"></b-progress>
+                <b-progress value="88" height="5px"></b-progress>
             </div>
             <div class="skill">Python
                 <b-progress value="66" height="5px"></b-progress>
@@ -24,7 +24,7 @@
                 <b-progress value="85" height="5px"></b-progress>
             </div>
             <div class="skill">SQL
-                <b-progress value="82" height="5px"></b-progress>
+                <b-progress value="85" height="5px"></b-progress>
             </div>
             <div class="skill">Java
                 <b-progress value="70" height="5px"></b-progress>
@@ -59,7 +59,7 @@
                 <b-progress value="95" height="5px"></b-progress>
             </div>
             <div class="skill">TensorFlow
-                <b-progress value="70" height="5px"></b-progress>
+                <b-progress value="50" height="5px"></b-progress>
             </div>
             <div class="skill">Django
                 <b-progress value="60" height="5px"></b-progress>
@@ -93,7 +93,7 @@
                 <b-progress value="85" height="5px"></b-progress>
             </div>
             <div class="skill">Jupyter Notebooks
-                <b-progress value="60" height="5px"></b-progress>
+                <b-progress value="50" height="5px"></b-progress>
             </div>
             <div class="skill">SQL Server Management Studio
                 <b-progress value="90" height="5px"></b-progress>
