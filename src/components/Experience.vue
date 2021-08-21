@@ -62,7 +62,7 @@
                 <small class="company">Algenol Biotech</small>
 
                 <ul class="duties">
-                    <li>Architech &amp; develop custom web application (LIM System) for scientists to setup/run experiments. This includes collecting all data via
+                    <li>Architect &amp; develop custom web application (LIM System) for scientists to setup/run experiments. This includes collecting all data via
                         manual or file input, building custom user Excel reports and graphs, alerting, and interacting with other systems via RESTful API</li>
                     <li>Develop customized databases and reports from a correlating logging system</li>
                     <li>Lead and mentor other developers</li>
